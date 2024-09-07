@@ -1,0 +1,8 @@
+curl -X POST -H "Content-Type: application/json" -d '{"sailingSpeed": 15, "draft": 10, "trim": 1, "windSpeed": 20, "windDirection": 90, "currentSpeed": 2, "currentDirection": 45, "combinedWaveHeight": 5, "combinedWaveDirection": 120, "combinedWavePeriod": 10, "seaWaterTemp": 25}' https://maritime.pragadesh45.repl.co/predict
+
+
+
+% curl -X POST -H "Content-Type: application/json" -d '{"sailingSpeed": 15, "draft": 10, "trim": 1, "windSpeed": 20, "windDirection": 90, "currentSpeed": 2, "currentDirection": 45, "combinedWaveHeight": 5, "combinedWaveDirection": 120, "combinedWavePeriod": 10, "seaWaterTemp": 25}' http://172.31.196.30:81/predict
+
+
+
